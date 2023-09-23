@@ -178,7 +178,7 @@ int main()
     }
     t_end = omp_get_wtime();
     time = t_end - t_start;
-    std::cout << "Euler4 method" << std::endl;
+    std::cout << "EulerRunge4 method" << std::endl;
     std::cout << "Total time:" << time << std::endl;
     for (int i = 0; i < n; i++)
     {
